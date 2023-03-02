@@ -137,7 +137,7 @@ var SmtpMailAdapter = mailOptions => {
                 return
             })
             .catch(error => {
-                throw error
+                console.error(error);
             });
     };
 
@@ -220,7 +220,7 @@ var SmtpMailAdapter = mailOptions => {
                 return
             })
             .catch(error => {
-                throw error
+                console.error(error);
             });
     };
 
@@ -303,7 +303,7 @@ var SmtpMailAdapter = mailOptions => {
                 return
             })
             .catch(error => {
-                throw error
+                console.error(error);
             });
     };
 
