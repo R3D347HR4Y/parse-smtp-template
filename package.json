@@ -1,14 +1,14 @@
 {
-  "name": "parse-smtp-template",
+  "name": "parse-smtp-template-no-throw",
   "version": "2.2.2",
-  "description": "Parse Server Module to send emails via SMTP with a customizable template option and Multi Language",
+  "description": "Parse Server Module to send emails via SMTP with a customizable template option and Multi Language (that does not throw)",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macarthuror/parse-smtp-template.git"
+    "url": "git+https://github.com/R3D347HR4Y/parse-smtp-template.git"
   },
   "keywords": [
     "Parse",
@@ -36,13 +36,17 @@
     {
       "name": "oproulx",
       "url": "https://github.com/oproulx"
+    },
+    {
+      "name": "R3D347HR4Y",
+      "url": "https://github.com/R3D347HR4Y"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macarthuror/parse-smtp-template/issues"
+    "url": "https://github.com/R3D347HR4Y/parse-smtp-template/issues"
   },
-  "homepage": "https://github.com/macarthuror/parse-smtp-template#readme",
+  "homepage": "https://github.com/R3D347HR4Y/parse-smtp-template#readme",
   "dependencies": {
     "nodemailer": "6.7.5"
   },
