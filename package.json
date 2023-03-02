@@ -1,6 +1,6 @@
 {
   "name": "parse-smtp-template-no-throw",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Parse Server Module to send emails via SMTP with a customizable template option and Multi Language (that does not throw)",
   "main": "index.js",
   "scripts": {
